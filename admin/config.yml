@@ -1,0 +1,20 @@
+backend:
+  name: github
+  repo: Rice-cat-k/rice_dog-site
+  branch: main
+
+media_folder: "uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "content"
+    label: "홈페이지 내용"
+    files:
+      - file: "content.json"
+        label: "전체 내용 수정"
+        name: "content"
+        fields:
+          - { label: "Tagline", name: "tagline", widget: "string" }
+          - { label: "메인 제목", name: "hero.title", widget: "string" }
+          - { label: "메인 설명", name: "hero.subtitle", widget: "string" }
+          - { label: "소개글", name: "about", widget: "text" }
