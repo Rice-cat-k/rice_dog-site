@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rice Dog Nail</title>
+  <meta name="description" content="럭셔리 네일아트, Rice Dog Nail" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- 고급 느낌 폰트 (무료) -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo">RD</div>
+      <div class="brandtext">
+        <div class="name">Rice Dog Nail</div>
+        <div class="tagline" id="tagline">Luxury Nail Atelier</div>
+      </div>
+    </div>
+
+    <nav class="nav">
+      <a href="#about">소개</a>
+      <a href="#menu">가격</a>
+      <a href="#gallery">갤러리</a>
+      <a href="#location">오시는 길</a>
+      <a class="cta" id="kakaoLink" href="#" target="_blank" rel="noreferrer">카카오 예약</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-content">
+        <p class="eyebrow">RICE_DOG • LUXURY NAIL</p>
+        <h1 id="heroTitle">고급스러움의 기준이 되는 네일</h1>
+        <p class="sub" id="heroSubtitle">
+          프리미엄 컬러, 섬세한 디테일, 오래가는 광택. 당신의 손끝을 가장 우아하게.
+        </p>
+        <div class="hero-actions">
+          <a class="btn gold" id="heroPrimary" href="#" target="_blank" rel="noreferrer">지금 예약하기</a>
+          <a class="btn ghost" href="#gallery">디자인 보기</a>
+        </div>
+        <div class="chips" id="chips"></div>
+      </div>
+      <div class="hero-card">
+        <div class="card-title">오늘의 추천</div>
+        <div class="card-item" id="todayPickTitle">글로시 누드 + 골드 라인</div>
+        <div class="card-desc" id="todayPickDesc">데일리부터 격식룩까지, 손끝을 가장 고급스럽게.</div>
+        <div class="card-foot">
+          <span class="spark">✦</span>
+          <span id="todayPickPrice">₩ 59,000~</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-head">
+        <h2>소개</h2>
+        <p id="aboutText">Rice Dog Nail은 “럭셔리 & 클린”을 중심으로 프리미엄 시술을 제공합니다.</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-box">
+          <h3>프리미엄 케어</h3>
+          <p>큐티클/각질/보습 밸런스를 잡아 광택과 유지력을 끌어올립니다.</p>
+        </div>
+        <div class="about-box">
+          <h3>디자인 큐레이션</h3>
+          <p>트렌드와 개인 톤을 함께 고려해 가장 고급스러운 조합을 제안합니다.</p>
+        </div>
+        <div class="about-box">
+          <h3>위생 & 도구관리</h3>
+          <p>소독/위생 프로세스를 표준화해 안심하고 시술받을 수 있어요.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="section">
+      <div class="section-head">
+        <h2>가격</h2>
+        <p>기본 가격 기준이며 디자인 난이도/재료에 따라 변동될 수 있어요.</p>
+      </div>
+      <div class="menu-grid" id="menuGrid"></div>
+    </section>
+
+    <section id="gallery" class="section">
+      <div class="section-head">
+        <h2>갤러리</h2>
+        <p id="galleryHint">사진 URL을 admin에서 쉽게 바꿀 수 있어요.</p>
+      </div>
+      <div class="gallery" id="galleryGrid"></div>
+    </section>
+
+    <section id="location" class="section">
+      <div class="section-head">
+        <h2>오시는 길</h2>
+        <p id="addressText">주소를 admin에서 수정 가능</p>
+      </div>
+
+      <div class="location-grid">
+        <div class="location-box">
+          <div class="loc-row"><span>📍</span><span id="addressLine">경기도 ○○시 ○○구 ○○로 ○○</span></div>
+          <div class="loc-row"><span>⏰</span><span id="hoursLine">월-토 10:00 - 20:00 (일/공휴일 휴무)</span></div>
+          <div class="loc-row"><span>☎</span><span id="phoneLine">010-0000-0000</span></div>
+          <div class="loc-actions">
+            <a class="btn gold" id="naverMapLink" href="#" target="_blank" rel="noreferrer">네이버지도 열기</a>
+            <a class="btn ghost" id="instaLink" href="#" target="_blank" rel="noreferrer">인스타그램</a>
+          </div>
+        </div>
+
+        <div class="map-box">
+          <iframe
+            id="mapEmbed"
+            title="Map"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps?q=Seoul&output=embed">
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <div class="f-left">
+          <div class="f-brand">RICE_DOG</div>
+          <div class="f-sub">Luxury Nail Atelier</div>
+        </div>
+        <div class="f-right">
+          <a href="/admin/" class="admin-link">관리자 모드</a>
+          <span class="dot">•</span>
+          <span id="copyright">© Rice Dog Nail</span>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+{
+  "tagline": "Luxury Nail Atelier",
+
+  "hero": {
+    "title": "아주 럭셔리한 손끝의 완성",
+    "subtitle": "쌀뭉이 에서 경험하는 프리미엄 네일 케어"
+  },
+
+  "chips": ["프리미엄 젤", "럭셔리 디자인", "1:1 케어", "위생관리 철저"],
+
+  "today_pick": {
+    "title": "누드 핑크 + 골드 포인트",
+    "desc": "고급스러움과 데일리 감성의 완벽한 조합",
+    "price": "₩59,000~"
+  },
+
+  "about": "쌀뭉샵은 고급스럽고 깔끔한 네일 디자인을 중심으로 한 프리미엄 네일아트 샵입니다.",
+
+  "menu": [
+    { "name": "젤 네일 (원컬러)", "desc": "프리미엄 컬러 사용", "price": "₩45,000" },
+    { "name": "아트 네일", "desc": "디자인 난이도에 따라 상이", "price": "₩65,000~" },
+    { "name": "패디 젤", "desc": "풋케어 포함", "price": "₩55,000" }
+  ],
+
+  "gallery": [
+    "https://images.unsplash.com/photo-1604654894610-df63bc536371",
+    "https://images.unsplash.com/photo-1600948836101-f9ffda59d250",
+    "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9"
+  ],
+
+  "location": {
+    "address": "경기도 멍뭉시 쌀뭉구 쌀냥로 18",
+    "hours": "월-토 10:00 - 20:00 (일/공휴일 휴무)",
+    "phone": "010-0000-0000",
+    "naver_map": "https://map.naver.com",
+    "map_embed": "https://www.google.com/maps?q=Seoul&output=embed"
+  },
+
+  "links": {
+    "kakao": "https://pf.kakao.com",
+    "instagram": "https://instagram.com"
+  }
+}
